@@ -1,0 +1,9 @@
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.alert {
+    display: none;
+}

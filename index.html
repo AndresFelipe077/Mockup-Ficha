@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ficha</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>FICHA</h1>
+
+    <div class="card p-5">
+      <form action="" method="POST">
+
+        <div class="form-floating mb-3 ">
+          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Programa</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Número de ficha</label>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Fecha de inicio</label>
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Fecha de finalización</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Jornada</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Comentario</label>
+        </div>
+
+
+        <div class="form-floating mb-3">
+          <input type="Text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Documento</label>
+        </div>
+
+        <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+
+        <div>
+          <button type="button" class="btn btn-warning" data-bs-toggle="button">Mañana</button>
+          <button type="button" class="btn btn-danger" data-bs-toggle="button">Tarde</button>
+          <button type="button" class="btn btn-info" data-bs-toggle="button">Mixta</button>
+          <p class="text-danger"> <i>Opciones rápidas para jornadas</i> </p>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-sm-6 text-center">
+            <button type="button" class="btn btn-success" class="close" data-dismiss="alert" aria-hidden="true">Aceptar</button>
+          </div>
+          <div class="col-sm-6 text-center">
+            <button type="submit" class="btn btn-danger">Cancelar</button>
+          </div>
+        </div>
+
+
+      </form>
+    </div>
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
